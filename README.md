@@ -94,3 +94,100 @@ The model learns relationships between house characteristics and their prices, a
 Conclusion
 
 This project demonstrates the complete machine learning workflow for house price prediction, including data preprocessing, feature analysis, model training, and prediction. It provides practical experience in handling real-world datasets and implementing regression-based machine learning solutions.
+
+
+Diabetes Prediction Dataset Analysis
+
+Overview
+
+This project uses a Diabetes Prediction Dataset to analyze patient health records and predict whether a person is likely to have diabetes.
+
+The dataset contains medical information such as glucose level, blood pressure, insulin level, BMI, age, and pregnancy count. The target variable is Outcome, where:
+
+- 0 = No Diabetes
+- 1 = Diabetes
+
+Dataset Information
+
+- Total Records: 768
+- Total Features: 8
+- Target Column: Outcome
+
+Features
+
+Feature| Description
+Pregnancies| Number of pregnancies
+Glucose| Blood glucose level
+BloodPressure| Blood pressure measurement
+SkinThickness| Skin fold thickness
+Insulin| Insulin level
+BMI| Body Mass Index
+DiabetesPedigreeFunction| Family diabetes history score
+Age| Age of patient
+Outcome| Diabetes result (0 or 1)
+
+Data Preprocessing
+
+The following preprocessing steps can be performed:
+
+1. Load dataset using Pandas.
+2. Check dataset shape and structure.
+3. Handle missing or invalid values.
+4. Check data types.
+5. Perform statistical analysis using describe().
+6. Normalize or scale features if required.
+7. Split dataset into training and testing sets.
+
+Exploratory Data Analysis (EDA)
+
+Important observations:
+
+- Dataset contains 768 patient records.
+- Average glucose level is approximately 120.
+- Average age is approximately 33 years.
+- Outcome column contains two classes:
+  - Diabetic
+  - Non-Diabetic
+- Features such as Glucose, BMI, Insulin, and Age may significantly affect diabetes prediction.
+
+Machine Learning Approach
+
+Possible algorithms:
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Support Vector Machine (SVM)
+- K-Nearest Neighbors (KNN)
+
+Recommended Algorithm
+
+Random Forest Classifier
+
+Reasons:
+
+- Good accuracy on medical datasets.
+- Handles multiple features effectively.
+- Less prone to overfitting compared to a single Decision Tree.
+
+Project Workflow
+
+1. Load Dataset
+2. Data Cleaning
+3. Feature Selection
+4. Train-Test Split
+5. Model Training
+6. Model Evaluation
+7. Diabetes Prediction
+
+Libraries Used
+
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-Learn
+
+Conclusion
+
+This project demonstrates how Machine Learning can be used to predict diabetes based on patient health information. By analyzing medical parameters such as glucose level, BMI, insulin level, and age, predictive models can help identify diabetes risk and support early healthcare decisions.
