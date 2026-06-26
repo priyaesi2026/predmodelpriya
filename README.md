@@ -95,6 +95,7 @@ Conclusion
 
 This project demonstrates the complete machine learning workflow for house price prediction, including data preprocessing, feature analysis, model training, and prediction. It provides practical experience in handling real-world datasets and implementing regression-based machine learning solutions.
 
+---------------------------------------------------------------------------------------------------------------------------------------------
 
 Diabetes Prediction Dataset Analysis
 
@@ -191,3 +192,286 @@ Libraries Used
 Conclusion
 
 This project demonstrates how Machine Learning can be used to predict diabetes based on patient health information. By analyzing medical parameters such as glucose level, BMI, insulin level, and age, predictive models can help identify diabetes risk and support early healthcare decisions.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Heart Disease Prediction using Machine Learning
+
+Project Overview
+
+This project focuses on predicting whether a person is likely to have heart disease based on various medical parameters such as age, blood pressure, cholesterol level, heart rate, and other health-related features. The dataset is preprocessed and used to build a machine learning model for accurate heart disease prediction.
+
+Dataset Information
+
+Dataset Name: Heart Disease Dataset
+
+Total Records: 303
+
+Total Features: 13
+
+Features Description
+
+Feature	Description
+
+age	Age of the patient
+sex	Gender of the patient
+cp	Chest pain type
+trestbps	Resting blood pressure
+chol	Serum cholesterol
+fbs	Fasting blood sugar
+restecg	Resting ECG results
+thalach	Maximum heart rate achieved
+exang	Exercise-induced angina
+oldpeak	ST depression induced by exercise
+slope	Slope of the ST segment
+ca	Number of major vessels
+thal	Thalassemia result
+target	Heart Disease (0 = No, 1 = Yes)
+
+---
+
+Data Preprocessing
+
+The following preprocessing steps were performed:
+
+1. Loaded the dataset using Pandas.
+
+2. Checked dataset shape and structure.
+
+3. Identified missing values.
+
+4. Verified data types.
+
+5. Prepared the dataset for machine learning model training.
+
+---
+
+Missing Values Summary
+
+Column	Missing Values
+
+All Columns	0
+
+---
+
+Exploratory Data Analysis
+
+Basic statistical analysis was performed to understand the dataset.
+
+Key Observations
+
+Dataset contains 303 patient records.
+
+Average patient age is around 54 years.
+
+Both male and female patients are included.
+
+Medical features help determine heart disease risk.
+
+---
+
+Machine Learning Approach
+
+Algorithm Used
+
+Decision Tree Classifier
+
+Decision Tree was selected because:
+
+Suitable for medical classification problems.
+
+Easy to understand and visualize.
+
+Handles numerical and categorical data effectively.
+
+---
+
+Workflow
+
+1. Import Required Libraries
+
+2. Load Dataset
+
+3. Data Cleaning
+
+4. Feature Selection
+
+5. Train-Test Split
+
+6. Model Training
+
+7. Prediction
+
+8. Model Evaluation
+
+---
+
+Technologies Used
+
+Python
+
+Pandas
+
+NumPy
+
+Scikit-Learn
+
+Matplotlib
+
+Google Colab / Jupyter Notebook
+
+---
+
+Project Outcome
+
+The model predicts whether a patient is likely to have heart disease based on medical information, helping support early diagnosis.
+
+---
+
+Conclusion
+
+This project demonstrates the complete machine learning workflow for heart disease prediction, including preprocessing, feature analysis, model training, and classification.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Wine Quality Prediction using Machine Learning
+
+Project Overview
+
+This project focuses on predicting wine quality based on its physicochemical properties. The dataset contains several chemical measurements that help determine the quality rating of wine using machine learning techniques.
+
+---
+
+Dataset Information
+
+Dataset Name: Wine Quality Dataset
+
+Total Records: 1599
+
+Total Features: 11
+
+
+---
+
+Features Description
+
+Feature	Description
+
+fixed acidity	Fixed acidity level
+volatile acidity	Volatile acidity
+citric acid	Citric acid content
+residual sugar	Residual sugar
+chlorides	Chloride concentration
+free sulfur dioxide	Free sulfur dioxide
+total sulfur dioxide	Total sulfur dioxide
+density	Density of wine
+pH	pH value
+sulphates	Sulphate concentration
+alcohol	Alcohol percentage
+quality	Target variable (Wine Quality Score)
+
+---
+
+Data Preprocessing
+
+The following preprocessing steps were performed:
+
+1. Loaded the dataset using Pandas.
+
+
+2. Checked dataset shape and structure.
+
+3. Identified missing values.
+
+4. Verified data types.
+
+5. Prepared the dataset for machine learning model training.
+
+---
+
+Missing Values Summary
+
+Column	Missing Values
+
+All Columns	0
+
+---
+
+Exploratory Data Analysis
+
+Basic statistical analysis was performed.
+
+Key Observations
+
+Dataset contains 1599 wine samples.
+
+Alcohol content significantly influences wine quality.
+
+Acidity and sulphates also affect the quality score.
+
+Quality ratings generally range from 3 to 8.
+
+---
+
+Machine Learning Approach
+
+Algorithm Used
+
+Random Forest Classifier
+
+Random Forest was selected because:
+
+Provides high prediction accuracy.
+
+Handles multiple features efficiently.
+
+Reduces overfitting compared to a single Decision Tree.
+
+---
+
+Workflow
+
+1. Import Required Libraries
+
+2. Load Dataset
+
+3. Data Cleaning
+
+4. Feature Selection
+
+5. Train-Test Split
+
+6. Model Training
+
+7. Prediction
+
+8. Model Evaluation
+
+---
+
+Technologies Used
+
+Python
+
+Pandas
+
+NumPy
+
+Scikit-Learn
+
+Matplotlib
+
+Google Colab / Jupyter Notebook
+
+---
+
+Project Outcome
+
+The model predicts the quality of wine based on its chemical properties, helping classify wine into different quality levels.
+
+---
+
+Conclusion
+
+This project demonstrates the complete machine learning workflow for wine quality prediction, including preprocessing, feature analysis, model training, and prediction using classification techniques.
+*************************************************************************************************************************************************
